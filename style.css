@@ -1,0 +1,68 @@
+@import url('https://fonts.cdnfonts.com/css/mister-pixel-16');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#game {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181A18 ;
+    width: 100vw;
+    height: 100vh;
+}
+#board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+.cell {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #2d033b;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid black;
+    border-right: 2px solid #000000;
+    display: flex;
+}
+
+#boardInfo {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+button{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.alive {
+    background-color: #810ca8;
+}
+#startGame{
+    margin-top: 1rem;
+}
+input{
+    width: 3rem;
+    height: 1.5rem ;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+h1{
+    font-family: 'Mister Pixel 16 pt - Small Caps', sans-serif;
+    /* font-family: 'Mister Pixel 16 pt - ToolsOne', sans-serif; */
+    font-size: 4.5rem;
+    color: rgb(147, 165, 224);
+}
